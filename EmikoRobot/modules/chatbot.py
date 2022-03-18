@@ -116,7 +116,7 @@ async def hmm(client, message):
         test = test.replace("I live in @orekisupportt.", "I live in San Francisco, California.")
         test = test.replace("I was created by @hen4ex", "I made myself")
         test = test.replace(
-            "Hello there I am Emiko...nice to meet u",
+            "Hello there I am Oreki...nice to meet u",
             "Hi, my friend! Do you want me to tell you a joke?")
         test = test.replace("@hen4ex is my owner", "Have the control right.")
         test = test.replace(
@@ -196,7 +196,7 @@ async def hmm(client, message):
 
         test = test.replace("Emiko", "Aco")
         test = test.replace("Emiko", "Aco")
-        test = test.replace("My god is @excrybaby", "I'm a Christian")
+        test = test.replace("My god is @hen4ex", "I'm a Christian")
         test = test.replace("16", "9")
         test = test.replace("@hen4ex is my husband.", "I'm single.")
         test = test.replace("orekisupportt", "Emikobot.ai")
@@ -216,7 +216,7 @@ async def hmm(client, message):
         response = response.replace("aco", "emiko")
         response = response.replace("Luna", "Emiko")
         response = response.replace("luna", "emiko")
-        response = response.replace("I'm a Christian", "My god is @excrybaby")
+        response = response.replace("I'm a Christian", "My god is @hen4ex")
         response = response.replace("9", "16")
         response = response.replace("I'm married to my job.", "I'm married with @hen4ex")
         response = response.replace("I'm single.", "My husband is @hen4ex")
@@ -225,7 +225,7 @@ async def hmm(client, message):
         response = response.replace("I made myself", "I was Created by @hen4ex")
         response = response.replace(
                 "Hi, my friend! Do you want me to tell you a joke?",
-                "Hello there I am Emiko...nice to meet u")
+                "Hello there I am Oreki...nice to meet u")
         response = response.replace("Have the control right.", "@hen4ex is my owner.")
         response = response.replace(
                 "Hi, my friend, what can I do for you today?",
@@ -291,7 +291,7 @@ async def inuka(client, message):
             return
     test = test.replace("Emiko", "Aco")
     test = test.replace("Emiko", "Aco")
-    test = test.replace("My god is @excrybaby", "I'm a Christian")
+    test = test.replace("My god is @hen4ex", "I'm a Christian")
     test = test.replace("16", "9")
     test = test.replace("@hen4ex is my husband.", "I'm single.")
     test = test.replace("@orekisupportt", "Emikobot.ai")
@@ -413,11 +413,11 @@ async def inuka(client, message):
     response = response.replace("I made myself", "I was Created by @hen4ex")
     response = response.replace(
             "Hi, my friend! Do you want me to tell you a joke?",
-            "Hello there I am Emiko...nice to meet u")
+            "Hello there I am Oreki...nice to meet u")
     response = response.replace("Have the control right.", "@hen4ex is my owner.")
     response = response.replace(
             "Hi, my friend, what can I do for you today?",
-            "Hi, My name is Emiko Nice to meet you")
+            "Hi, My name is Oreki Nice to meet you")
 
     pro = response
     if not "en" in lan and not lan == "":
